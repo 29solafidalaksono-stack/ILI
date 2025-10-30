@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILI - Asia's Game Item Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ILI</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#review">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="chart-btn-container">
+                <button class="chart-btn"><i class="fas fa-shopping-cart"></i> Chart</button>
+            </li>
+        </ul>
+        <div class="burger" onclick="toggleMenu()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <h1 class="animate-in">Level Up Your Game Now!</h1>
+                <p class="animate-in delay-1">Get the Cheapest & Fastest Diamonds, Robux, and Game Passes in Asia.</p>
+                <a href="#products" class="cta-btn animate-in delay-2">View Products</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="images/jomok.jpg" alt="Game Items Banner" class="hero-image">
+            </div>
+        </section>
+
+        <section id="products" class="produk-section">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="produk-grid">
+                <div class="card produk-item animate-card">
+                    <img src="images/diamond.webp" alt="Diamond Icon">
+                    <h3>Game Diamonds</h3>
+                    <p>Top up Diamonds for your favorite games, 5-minute process!</p>
+                    <span class="price">Starting from $1.00</span>
+                    <button class="buy-btn" data-product="Diamond">Buy Now</button>
+                </div>
+                
+                <div class="card produk-item animate-card">
+                    <img src="images/maxresdefault.jpg" alt="Robux Icon">
+                    <h3>Robux</h3>
+                    <p>Upgrade your Roblox experience with official Robux.</p>
+                    <span class="price">Starting from $1.50</span>
+                    <button class="buy-btn" data-product="Robux">Buy Now</button>
+                </div>
+
+                <div class="card produk-item animate-card">
+                    <img src="images/download-removebg-preview.png" alt="Game Pass Icon">
+                    <h3>Premium Passes</h3>
+                    <p>Access exclusive features and premium content across various games.</p>
+                    <span class="price">Starting from $5.00</span>
+                    <button class="buy-btn" data-product="Game Pass">Buy Now</label>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">About ILI</h2>
+            <div class="card about-content">
+                <p>ILI is your trusted platform for all your game item needs. We are committed to providing the fastest, cheapest, and safest top-ups since 2024 across the Asian market. Your gaming satisfaction is our top priority.</p>
+            </div>
+        </section>
+
+        <section id="review" class="review-section">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="review-grid">
+                <div class="card review-item">
+                    <p>"Diamond process was super fast! Friendly service, will be a regular customer."</p>
+                    <span class="reviewer">- Bintang F. (Indonesia)</span>
+                </div>
+                <div class="card review-item">
+                    <p>"Robux arrived in less than 2 minutes. Top seller, guaranteed safe!"</p>
+                    <span class="reviewer">- Chen R. (China)</span>
+                </div>
+                <div class="card review-item">
+                    <p>"Always buying battle passes here, the price is the most competitive. Highly recommended!"</p>
+                    <span class="reviewer">- Deepa P. (India)</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="kontak-section">
+            <h2 class="section-title">Contact Us</h2>
+            <p>Have questions? Send us an email at: <a href="mailto:info@ili.com">info@ili.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 ILI. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#products" class="mobile-buy-btn">BUY NOW</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
